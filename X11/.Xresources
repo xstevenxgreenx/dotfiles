@@ -1,45 +1,46 @@
 ! special
-*.foreground:   #93f1cb
-*.background:   #050606
-*.cursorColor:  #93f1cb
+*.foreground:   #746c48
+*.background:   #170f0d
+*.cursorColor:  #746c48
 
 ! black
-*.color0:       #0a0b0c
-*.color8:       #7dc6de
+*.color0:       #392925
+*.color8:       #544b2e
 
 ! red
-*.color1:       #151718
-*.color9:       #c7bcdc
+*.color1:       #98724c
+*.color9:       #af652f
 
 ! green
-*.color2:       #25292b
-*.color10:      #7aa1b0
+*.color2:       #908f32
+*.color10:      #c3c13d
 
 ! yellow
-*.color3:       #3d4244
-*.color11:      #9ba977
+*.color3:       #aa964c
+*.color11:      #c8b55b
 
 ! blue
-*.color4:       #5a6164
-*.color12:      #ae9ad0
+*.color4:       #7b854e
+*.color12:      #70a16c
 
 ! magenta
-*.color5:       #7d878b
-*.color13:      #889b51
+*.color5:       #6b5644
+*.color13:      #98724c
 
 ! cyan
-*.color6:       #a7b3b8
-*.color14:      #9dcee1
+*.color6:       #5c5142
+*.color14:      #778725
 
 ! white
-*.color7:       #dde3e6
-*.color15:      #afc476
+*.color7:       #c8b55b
+*.color15:      #e4dc8c
+
 
 
 URxvt*font: xft:DejaVuSansMono:size=9:antialias=true
 URxvt*letterSpace: -1
 URxvt*borderLess: false
-URxvt*borderColor: #93f1cb
+URxvt*borderColor: #746c48
 URxvt*externalBorder: 0
 URxvt*internalBorder: 4
 URxvt*scrollBar: false
@@ -55,9 +56,9 @@ URxvt.keysym.Control-Shift-R: perl:tabbedex:rename_tab
 URxvt.keysym.Control-Shift-H: perl:tabbedex:move_tab_left
 URxvt.keysym.Control-Shift-L: perl:tabbedex:move_tab_right
 
-URxvt*tabbedex.tabbar-fg: 15
+URxvt*tabbedex.tabbar-fg: 94
 URxvt*tabbedex.tabbar-bg: 236
-URxvt*tabbedex.tab-fg: 110
+URxvt*tabbedex.tab-fg: 100
 URxvt*tabbedex.tab-bg: 236
 URxvt*tabbedex.transparent:true
 URxvt*tabbedex.new-button: false
