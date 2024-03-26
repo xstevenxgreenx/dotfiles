@@ -237,7 +237,7 @@ set $i3lockwall i3lock -i ~/Downloads/Linux-PNG-Pic.png
 
 bindsym $mod+CTRL+Shift+l exec --no-startup-id $i3lockwall
 
-#exec --no-startup-id feh --no-fehbg --bg-fill ~/.config/i3/feh/wallpaper1.jpg
+exec --no-startup-id feh --no-fehbg --bg-fill ~/.config/i3/feh/wallpaper1.jpg
 
 # floating pop up automatically
 for_window [window_role="pop-up"] floating enable
